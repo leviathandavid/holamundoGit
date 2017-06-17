@@ -15,8 +15,10 @@ public class Git {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            for (int i = 0; i < 10; i++) {
-                System.out.println(i);
+        int w = 10;
+        while(w > 0 ) {
+            System.out.println(w);
+            --w;
         }
     }
     
